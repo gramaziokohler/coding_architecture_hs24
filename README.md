@@ -1,4 +1,4 @@
-![Poster](./lecture-script/resources/allgemein/CAI-Banner_hs24.jpg)
+![Poster](./lecture-script/week-01/resources/allgemein/CAI-Banner_hs24.jpg)
 
 # Coding Architecture I: HS24
 
