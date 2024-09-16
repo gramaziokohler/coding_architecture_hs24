@@ -22,7 +22,6 @@ The central platform for all course content is [Moodle](https://moodle-app2.let.
 ## Lectures
 
 * [Week 01](/lecture-script/week-01/lecture-01.md) | [Ungraded assignment](assignments/A00-ungraded-assignment/README.md)
-* [Week 02](/lecture-script/week-02/lecture-02.md) | [Assignment 01](assignments/A01-Brick-Wall/README.md)
 
 ## Roadmap
 
