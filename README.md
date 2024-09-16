@@ -1,4 +1,4 @@
-![Poster](.static/230719_357_Moodle_WM.jpg)
+![Poster](./lecture-script/resources/allgemein/CAI-Banner_hs24.jpg)
 
 # Coding Architecture I: HS24
 
@@ -11,19 +11,18 @@ Materials for the "Coding Architecture I", Autumn Semester 2024.
 > **and exploring the programmability of our world**<br>
 > through powerful methods of digital, computational, and algorithmic design.
 
-
 ## Getting started
 
 See [here](getting-started/README.md) for details about software requirements and installation of the tools.
 
 ## Course information
 
-The central platform for all course content is [Moodle](https://moodle-app2.let.ethz.ch/course/view.php?id=20309).
+The central platform for all course content is [Moodle](https://moodle-app2.let.ethz.ch/course/view.php?id=22789).
 
 ## Lectures
 
-* [Week 01](examples/week-01/README.md) | [Ungraded assignment](assignments/ungraded-assignment)
-* [Week 02](examples/week-02/README.md) | [Assignment 01](assignments/A01-area-checker/README.md)
+* [Week 01](/lecture-script/week-01/lecture-01.md) | [Ungraded assignment](assignments/A00-ungraded-assignment/README.md)
+* [Week 02](/lecture-script/week-02/lecture-02.md) | [Assignment 01](assignments/A01-Brick-Wall/README.md)
 * [Week 03](examples/week-03/README.md) | No assignment
 * [Week 04](examples/week-04/README.md) | [Assignment 02](assignments/A02-filtered-point-grid/README.md)
 * [Week 05](examples/week-05/README.md) | No assignment
