@@ -266,7 +266,7 @@ Grasshopper is a visual programming language and environment for Rhinoceros3D. I
 
 By connecting components and algorithms in Grasshopper's visual interface, you can manipulate geometry, automate tasks, and explore design alternatives. To learn more about Grasshopper and its capabilities, refer to the [Teaching Material](https://gramaziokohler.arch.ethz.ch/teaching-materials/) section for in-depth resources and links.
 
-![Grasshopper Basics](/lecture-script/resources/lecture-01/GrasshopperBasics.png)
+![Grasshopper Basics](/lecture-script/week-01/resources/lecture-01/GrasshopperBasics.png)
 
 ## Code Examples
 
