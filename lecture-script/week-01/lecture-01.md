@@ -75,7 +75,7 @@ Assignments are strategically spaced throughout the semester, starting with simp
 
 ### Room
 
-The course “Coding Architecture I” will take place on Thurdays from 15:45-18:30 (no break) in room **HCI J7**.
+The course “Coding Architecture I” will take place on Thurdays from 15:45-18:30 in room **HCI J7**.
 
 >Please note:  We will try to provide as many powerplugs as we can, but we may not be able to cover the entire room! We kindly request that you bring your laptops fully charged to each session.
 
