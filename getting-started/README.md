@@ -38,3 +38,9 @@ If the installer fails:
 * Some antivirus software might interfere with the download process. In case of errors during instal, try to disable your antivirus momentarily, and run the installer again.
 * For a clean retry, delete the folder `Miniconda` (or `Miniconda3`) from your user profile, and try again.
 * On Windows, make sure you extract/unzip the installer first, and then run it. If you run the installer directly from within the zip file, it will fail. 
+
+## Conda Tools
+
+We will be using conda as a package management system and environment management system for installing and managing software packages and dependencies. 
+
+Find more information and how to use it [**here!**](conda-tools/README.md)
