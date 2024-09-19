@@ -24,6 +24,7 @@
   - [Grasshopper Introduction](#grasshopper-introduction)
 - [Code Examples](#code-examples)
 - [Assignment 0 (ungraded)](#assignment-0-ungraded)
+- [Micro exercises](#micro-exercises)
 - [Teaching Materials](#teaching-material)
 
 
@@ -208,8 +209,7 @@ integer_example / 2         # Divide the value of integer_example by 2
 # -------------------------------------
 # ------- Assignment Statements -------
 
-# Statement: An instruction that produces a side effect.
-# In the case of assignment statements, the side effect is to store a value in a variable.
+# An assignment statement is an instruction that stores a value in a variable.
 
 a = 10                        # Assigns the integer 10 to variable named a
 
@@ -219,25 +219,26 @@ b = a * 2                     # Multiplies a by 2 and stores the result in b
 # -------------------------------------
 # ------------ Statements -------------
 
-# Statements are instructions that Python can execute
-# Usually a single logical line
+# More generally, statements are instructions (usually a single line)
+# that Python can execute and they cause a side effect. 
 
-print(42)                       # Calls the print function to write 42 to the console
-
-# Conditional statement: branches out based on a condition
-x = True
-if x:
-    print("x is True")         # Executes only if x is True
+# A sequence of 3 statements to: assign a variable, print it and print its double
+x = 42
+print(x)
+print(x * 2)
 
 ```
 
-#### Control Structures and Functions
+#### Control Flow Statements and Functions
 
-Control structures and functions help you direct the flow and define reusable operations. They allow you to build more complex and organized programs.
+Control Flow Statements and Functions help you direct the flow of the program and define reusable algorithms. They allow you to build more complex and organized programs.
+
+Unlike a set of statements in a script, the statements inside a function only run when the function is called.
+
 
 ```python
 # -------------------------------------
-# --------- Control Structures --------
+# ------ Control Flow Statements ------
 
 # Conditional (if) statement
 if b > 10:
@@ -257,18 +258,11 @@ while count < 5:
 # ----------------------------
 # --------- Functions --------
 
-# A function is a way to organize an algorithm -no matter how simple-
-# into a reusable block of code.
-# A function only runs when it is called.
-# To call a function, we write its name, followed by parentheses.
-# If the function needs parameters, we add them inside the parentheses.
-
-# Python contains many built-in functions.
-# For example, to calculate the largest value of a set of numbers:
+# Using one of many built-in functions in Python
 largest_value = max(20, 5, 133)
 
-# Some functions need to be "imported" first, e.g. the square root function
-# The import lines are usually done at the beginning of the script
+# Some functions need to be "imported" first
+# The imports are usually done at the beginning of the script
 from math import sqrt
 sqrt_example = sqrt(64)       # Calculates the square root of 64
 
@@ -285,7 +279,7 @@ print(result)                 # Prints 8
 
 #### Algorithms
 
-Just as a building is composed of bricks, beams, and walls, a Python program is constructed from comments, values, expressions, statements, control structures, and functions. 
+Just as a building is composed of bricks, beams, and walls, a Python program is constructed from comments, data types (values), expressions, statements, control structures, and functions. 
 
 Defining an algorithm simply means that we will combine all these elements and organize them in a way they can be reused. This is the essence of programming.
 
@@ -308,6 +302,10 @@ def abs(value):              # function (aka definition)
         return value * -1    # .. reusable building block
     else:
         return value
+
+# Use it!
+print(abs(-222))
+
 ```
 
 ### Grasshopper Introduction
@@ -335,6 +333,53 @@ The assignment of this week is ungraded. You can give it a try to practice arith
 The task of the first (ungraded) assignment is to create a simple calculator program that can perform four basic arithmetic operations: addition, subtraction, multiplication, and division. 
 
 Click the link [here](/assignments/A00-ungraded-assignment/README.md) to learn the details of the first assignment.
+
+## Micro exercises
+
+The following are very simple optional micro exercises that you can go through to practice some of the concepts of the current lecture. Each of them should not take more than 5 minutes to complete.
+
+1. In a GHPython component, write a program that assigns a float value to the variable `height` and then print it.
+
+2. In a GHPython component, write a program that assigns two variables named `x` and `y` with float values and then prints the sum them.
+
+3. In a GHPython component, write a program that assigns a string value to the variable `name` and then prints it.
+
+4. In a GHPython component, write a program that assigns a float value to the variable `x`, then use conditional statements to check if it's greater than 5, if it is, print the string `"Is a large value"`.
+
+<details>
+  <summary><b>Solutions</b></summary>
+
+1. 
+
+```python
+height = 1.75
+print(height)
+```
+
+2. 
+    
+```python
+x = 10.5
+y = 20.2
+print(x + y)
+```
+
+3. 
+
+```python
+name = "David Bowie"
+print(name)
+```
+
+4. 
+
+```python
+x = 10
+if x > 5:
+    print("Is a large value")
+```
+
+</details>
 
 ## Teaching Material
 
