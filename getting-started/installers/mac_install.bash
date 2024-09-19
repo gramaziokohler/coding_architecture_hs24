@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 while true; do
     read -n 1 -p "Select Rhino version (6, 7, 8, or Q to quit):" RHINO_VERSION
     printf "\n";
