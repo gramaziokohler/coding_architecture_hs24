@@ -9,6 +9,7 @@
 - [Introduction](#introduction)
 - [Overview](#overview)
 - [Team](#team)
+- [Slides](#slides)
 - [Course Administration](#course-administration)
   - [Semester Structure](#semester-structure)
   - [Room](#room)
@@ -57,6 +58,17 @@ This course welcomes students from all backgrounds, as no prior coding experienc
 ## Team
 
 ![Teaching Team](./resources/allgemein/Team_Overview_HS24.png)
+
+## Slides
+
+[![Slides](./resources/lecture-01/slides.png)](https://docs.google.com/presentation/d/16FroMYQlwoUKqWQtC0TqKhu9K_DUGY5qgET3F_E435Y)
+
+<div style="display: flex; justify-content: center; align-items: center; height: 1vh;">
+    <p style="font-size: 75%;">
+        ↑ click to open ↑
+    </p>
+</div>
+
 
 ## Course Administration
 
