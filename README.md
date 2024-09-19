@@ -1,4 +1,4 @@
-![Poster](./lecture-script/week-01/resources/allgemein/CAI-Banner_hs24.jpg)
+![Poster](/.static/cai-banner_hs24.jpg)
 
 # Coding Architecture I: HS24
 
@@ -13,7 +13,7 @@ Materials for the "Coding Architecture I", Autumn Semester 2024.
 
 ## Getting started
 
-See [here](getting-started/README.md) for details about software requirements and installation of the tools.
+See [here](/getting-started/README.md) for details about software requirements and installation of the tools.
 
 ## Course information
 
@@ -21,7 +21,7 @@ The central platform for all course content is [Moodle](https://moodle-app2.let.
 
 ## Lectures
 
-* [Week 01](/lecture-script/week-01/lecture-01.md) | [Ungraded assignment](assignments/A00-ungraded-assignment/README.md)
+* [Week 01](/lectures/week-01/README.md) | [Ungraded assignment](assignments/A00-ungraded-assignment/README.md)
 
 ## Roadmap
 
@@ -29,3 +29,7 @@ See [here](roadmap/README.md) for the **Roadmap: becoming a computational design
 that provides guidance during the learning process and helps you understand how much
 you've progressed and what are the skills and concepts that you should master in order
 to move forward.
+
+## License
+
+Unless explicitely mentioned, all content in this repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

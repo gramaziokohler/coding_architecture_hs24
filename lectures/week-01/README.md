@@ -2,7 +2,7 @@
  
 ## Week 01 - Python Basics
 
-![Course Banner](./resources/allgemein/CAI-Banner_hs24.jpg)
+![Course Banner](/.static/cai-banner_hs24.jpg)
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@
   - [Software Requirements and Installation](#software-requirements-and-installation)
 - [Intro to Programming](#intro-to-programming)
   - [Roadmap](#roadmap)
-  - [What is Programming](#what-is-programming)
+  - [What is a software program](#what-is-a-software-program)
   - [Anatomy of Code](#anatomy-of-code)
   - [Grasshopper Introduction](#grasshopper-introduction)
 - [Code Examples](#code-examples)
@@ -51,16 +51,11 @@ Lectures, tutorials, and exercises will cover:
 - Applications of Python programming within the architectural design environment.
 - Practical examples of how these skills can be applied in digital fabrication and architecture.
 
-No prior coding experience is required, making this course accessible to all students, regardless of their background. By the end of the course, you’ll be equipped with the tools and knowledge to incorporate digital technologies into your design processes effectively.
+This course welcomes students from all backgrounds, as no prior coding experience is required, but familiarity with Grasshopper is expected. By the end of the course, you’ll be equipped with tools and knowledge to incorporate digital technologies into your design processes effectively.
 
 ## Team
 
 ![Teaching Team](./resources/allgemein/Team_Overview_HS24.png)
-
-<!-- This course is held by Gonzalo Casas. The first iteration (hs23) was designed by Halima Hassan, and subsequently revamped for the fall semester 24 by Lorin Wiedemeier.
-We are supported by Francesco Milano, Alexandra Moisi, Lancelot Burwell, Eric Gozzi and Neroli Soso as TAs.
-
->not sure if necessary (just because) -->
 
 ## Course Administration
 
@@ -77,7 +72,7 @@ Assignments are strategically spaced throughout the semester, starting with simp
 
 The course “Coding Architecture I” will take place on Thurdays from 15:45-18:30 in room **HCI J7**.
 
->Please note:  We will try to provide as many powerplugs as we can, but we may not be able to cover the entire room! We kindly request that you bring your laptops fully charged to each session.
+> Please note:  We will try to provide as many powerplugs as we can, but we may not be able to cover the entire room! We kindly request that you bring your laptops fully charged to each session.
 
 ### Moodle
 
@@ -95,11 +90,11 @@ to access to the Moodle course plattform.
 <img src="./resources/lecture-01/Tutor-Selection_hs24.jpg" alt="Tutor Selection" height="380"/>
 </p>
 
-To ensure a smooth learning experience, we have assigned 6 tutors who will serve as your points of contact throughout the semester. They will be available to assist you with any content-related or administrative questions you may have. We highly recommend signing up for a tutor on Moodle as soon as possible.
+To ensure a smooth learning experience, we have assigned 7 tutors who will serve as your points of contact throughout the semester. They will be available to assist you with any content-related or administrative questions you may have. We highly recommend signing up for a tutor on Moodle as soon as possible.
 
 LINK: [Moodle: Tutor Selection](https://moodle-app2.let.ethz.ch/mod/choicegroup/view.php?id=1066037)
 
-> Please note that *from October 29th to December 5th* Neroli Soso will only be available for tutoring **via Zoom** . If you prefer or don't mind digital communication, we encourage you to consider her as your tutor.
+> Please note that *from October 29th to December 5th*, Neroli Soso will only be available for tutoring **via Zoom** . If you prefer or don't mind digital communication, we encourage you to consider her as your tutor.
 
 ### Grading 
 
@@ -124,7 +119,7 @@ The "becoming a computational designer" roadmap is a comprehensive guide that ou
 
 See [here](/roadmap/README.md) for more information about the **Roadmap: becoming a computational designer**.
 
-[![Roadmap](./resources/lecture-01/roadmap.jpg)](./resources/lecture-01/roadmap.jpg)
+[![Roadmap](/.static/roadmap-small.png)](/roadmap/roadmap.png)
 
 <!-- <div style="display: flex; justify-content: center; align-items: center; height: 1vh;">
     <p style="font-size: 75%;">
@@ -132,9 +127,9 @@ See [here](/roadmap/README.md) for more information about the **Roadmap: becomin
     </p>
 </div> -->
 
-### What is Programming
+### What is a software program
 
-At its core, programming can be understood as the process of transforming data. You start with input data—whether numerical values, text, or other forms of information—apply a set of operations or processes to it, and produce output data. This transformation is fundamental to all programming tasks.
+At its core, software can be understood as a tool for transforming data. You start with input data—whether numerical values, text, or other forms of information—apply a set of operations or processes to it, and produce output data. Programming software is the task of writing that set of operations that will perform the transformation. This transformation is fundamental to all programming tasks.
 
 <!-- >Input → Process → Output -->
 
@@ -142,9 +137,9 @@ At its core, programming can be understood as the process of transforming data. 
 
 Consider Excel as a simple analogy: you might have a set of numbers to which you add another set or calculate their deviation from an average. The result is a new set of numbers—your output. What occurred in between is a data transformation.
 
-Similarly, in Grasshopper, each component operates on this principle. You provide inputs, the component processes them internally, and then you get outputs. This process of input-output transformation is at the heart of both visual programming in Grasshopper and traditional text-based programming.
+Similarly, in Grasshopper, each component operates on this principle. You provide inputs, the component processes them internally, and then you get outputs. This process of input-output transformation is at the heart of both visual programming in Grasshopper, and traditional text-based programming.
 
-On a slightly more complex level, software can be seen as the combination of data structures and algorithms.
+On a slightly more abstract level, software can be seen as the combination of data structures and algorithms.
 
 >*Data structures + Algorithms = Programs*
 
@@ -152,11 +147,11 @@ Data structures are essentially containers that hold data of varying complexity,
 
 ### Anatomy of Code
 
-Code, at its core, is a sequence of instructions executed from top to bottom, as opposed to the flow of components from left to right in Grasshopper. Understanding how to read and structure code is essential, as each line of code contributes to the overall functionality of a program. In this section, we'll break down the fundamental building blocks of Python code, likening them to architectural elements to make the concepts more intuitive.
+Code is fundamentally a sequence of instructions. The sequence is executed from top-to-bottom, as opposed to the flow of components from left-to-right in Grasshopper. Understanding how to read and structure code is essential, as each line of code contributes to the overall functionality of a program. In this section, we'll break down the fundamental building blocks of Python code, likening them to architectural elements to make the concepts more intuitive.
 
 #### Python Fundamentals
 
-Just as bricks can be conceived of as the basic units of a building, the following elements are the minimal building blocks of Python code. Each component, whether a comment, data type, or basic expression, plays a crucial role in constructing a functional program.
+Just as bricks can be conceived of as the basic units of a building, the following elements are the minimal building blocks of Python code. Each element, whether a comment, data type, or basic expression, plays a crucial role in constructing a functional program.
 
 ```python
 # -----------------------------------
@@ -181,98 +176,159 @@ float_example = 4.2429
 
 # String: A sequence of characters in either single or double quotes.
 string_example = "42"
-string_example_2 = "abc"
+string_example_2 = "Hello World"
 
 # Boolean: Represents two values: True or False.
 boolean_example = True
 ```
 
-#### Expresions and Assignments
+#### Expresions and Statements
 
-Think of expressions and assignments as the walls that structure your code. They allow you to perform operations and store the results, giving your code a defined structure and purpose.
+Think of expressions and statements as the walls that structure your code. They allow you to perform operations and store the results, giving your code a defined structure and purpose.
 
 ```python
 # ------------------------------------
-# ---- Expressions and Statements ----
+# ----------- Expressions ------------
 
-# Expression: A combination of values and functions that are combined and interpreted by the interpreter to create a new value.
-expression_example = 42 * 10  # Multiplies 42 by 10
-addition_example = 3 + 5      # Adds 3 and 5
+# Expression: A combination of values, variables, operators
+# and functions that create a new value. 
 
-# Using a function in an expression
-from math import sqrt
-sqrt_example = sqrt(64)       # Calculates the square root of 64
+# A value alone is itself a valid expression.
+3.14
 
-# Statements: Instructions that a Python interpreter can execute.
-print 42                       # Prints 42 to the console (Note: print is a statement in Python 2.7)
+# This expression multiples two values with the * operator.
+42 * 10                       # but we are not using the result!
 
-# Conditional statement
-x = True
-if x:
-    print "x is True"         # Executes if x is True
+# Expressions work similarly to math, e.g. parentheses to group parts
+(42 * 10) / 2.5
 
-# Return statement in a function
-def get_number():
-    return 42                 # Returns 42 from this function
-
+# We can also combine with variables
+integer_example / 2         # Divide the value of integer_example by 2
 
 # -------------------------------------
-# ------------ Assignments ------------
+# ------- Assignment Statements -------
 
-# Assigning a value to a variable
-a = 10                        # Assigns the integer 10 to variable a
+# Statement: An instruction that produces a side effect.
+# In the case of assignment statements, the side effect is to store a value in a variable.
+
+a = 10                        # Assigns the integer 10 to variable named a
 
 # Assigning the result of an expression to a variable
 b = a * 2                     # Multiplies a by 2 and stores the result in b
+
+# -------------------------------------
+# ------------ Statements -------------
+
+# Statements are instructions that Python can execute
+# Usually a single logical line
+
+print(42)                       # Calls the print function to write 42 to the console
+
+# Conditional statement: branches out based on a condition
+x = True
+if x:
+    print("x is True")         # Executes only if x is True
+
 ```
 
 #### Control Structures and Functions
 
-Control structures and functions are like the framework and utilities of your code, directing the flow and defining reusable operations. They allow you to build more complex and organized programs.
+Control structures and functions help you direct the flow and define reusable operations. They allow you to build more complex and organized programs.
 
 ```python
 # -------------------------------------
 # --------- Control Structures --------
 
-# If statement
+# Conditional (if) statement
 if b > 10:
-    print "b is greater than 10"
+    print("b is greater than 10")
 
-# For loop
+# A loop of a fixed number of iterations
 for i in range(5):
-    print i                   # Prints numbers 0 to 4
+    print(i)                   # Prints numbers 0 to 4
 
-# While loop
+# A loop that iterates while a specified condition is true
+# WARNING: always ensure the condition will eventually be false, otherwise, Grasshopper will freeze!
 count = 0
 while count < 5:
-    print count
+    print(count)
     count += 1                # Prints numbers 0 to 4, incrementing count each time
 
 # ----------------------------
 # --------- Functions --------
 
-# Defining a simple function
+# A function is a way to organize an algorithm -no matter how simple-
+# into a reusable block of code.
+# A function only runs when it is called.
+# To call a function, we write its name, followed by parentheses.
+# If the function needs parameters, we add them inside the parentheses.
+
+# Python contains many built-in functions.
+# For example, to calculate the largest value of a set of numbers:
+largest_value = max(20, 5, 133)
+
+# Some functions need to be "imported" first, e.g. the square root function
+# The import lines are usually done at the beginning of the script
+from math import sqrt
+sqrt_example = sqrt(64)       # Calculates the square root of 64
+
+# We can also define our own functions!
+# Defining a simple function with two parameters
 def add_numbers(x, y):
     return x + y              # Returns the sum of x and y
 
 # Calling a function
 result = add_numbers(5, 3)
-print result                  # Prints 8
+print(result)                 # Prints 8
+
+```
+
+#### Algorithms
+
+Just as a building is composed of bricks, beams, and walls, a Python program is constructed from comments, values, expressions, statements, control structures, and functions. 
+
+Defining an algorithm simply means that we will combine all these elements and organize them in a way they can be reused. This is the essence of programming.
+
+Each of these elements is a building block that allows the creation of the next level, i.e.: `Values -> Expressions -> Statements -> Algorithms`. 
+
+```python
+
+if value < 0:                   # an algorithm! 
+    print(value * -1)
+else:
+    print(value)
+
+```
+
+Once we have defined an algorithm, we want to make it reusable! To do that, we can wrap it in a function:
+
+```python
+def abs(value):              # function (aka definition)
+    if value < 0:            # .. wraps an algorithm in a 
+        return value * -1    # .. reusable building block
+    else:
+        return value
 ```
 
 ### Grasshopper Introduction
 
-Grasshopper is a visual programming language and environment for Rhinoceros3D. It is commonly used in computational design and architecture to create parametric models and generative designs. We want to draw a parallel here to our ["conception of programming"](#what-is-programming), where we postulated that an *input* is somehow transformed by a *process*, resulting in an *output*.
+Grasshopper is a visual programming language and environment for Rhinoceros3D. It is commonly used in computational design and architecture to create parametric models and generative designs. We want to draw a parallel here to our ["conception of programming"](#what-is-a-software-program), where we postulated that an *input* is somehow transformed by a *process*, resulting in an *output*.
 
 By connecting components and algorithms in Grasshopper's visual interface, you can manipulate geometry, automate tasks, and explore design alternatives. To learn more about Grasshopper and its capabilities, refer to the [Teaching Material](https://gramaziokohler.arch.ethz.ch/teaching-materials/) section for in-depth resources and links.
 
-![Grasshopper Basics](/lecture-script/week-01/resources/lecture-01/GrasshopperBasics.png)
+![Grasshopper Basics](/lectures/week-01/resources/lecture-01/GrasshopperBasics.png)
 
 ## Code Examples
 
-Follow this [Link](/examples/week-01/README.md) to find this week's relevant grasshopper files and teaching materials.
+The following example files will guide you in understanding the concepts presented during the lecture.
+
+- [Anatomy of Code](/examples/week-01/00_anatomy_of_code_hs24.gh)
+- [Overview of Arithmetic Operators](/examples/week-01/01_arithmetic_operations_hs24.gh)
+- [Overview of Other Operators](/examples/week-01/02_operators_hs24.gh)
 
 ## Assignment 0 (Ungraded)
+
+The assignment of this week is ungraded. You can give it a try to practice arithmetic operations in Python within the context of Grasshopper.
 
 ### Calculator
 
@@ -296,28 +352,30 @@ We have compiled a list of essential links and resources to support your learnin
 - [RhinoCommon API](https://developer.rhino3d.com/api/rhinocommon/)
 - [Rhino Python Guide](https://developer.rhino3d.com/guides/rhinopython/)
 - [Rhino Python 101 Primer](https://www.rhino3d.com/download/IronPython/6.0/RhinoPython101/)
+- [Rhino Basics](https://gramaziokohler.arch.ethz.ch/teaching-materials/02_rhino/)
 
 ### Grasshopper
 
-- [GrasshopperDocs](https://grasshopperdocs.com)
+- [Grasshopper Docs](https://grasshopperdocs.com)
 - [Grasshopper Basics](https://gramaziokohler.arch.ethz.ch/teaching-materials/03_grasshopper/)
 - [Grasshopper Python Basics](https://gramaziokohler.arch.ethz.ch/teaching-materials/04_python/)
 
 ### Python
 
-- [Python Reference](https://docs.python.org/3/c-api/index.html)
+- [Python 3.x Reference](https://docs.python.org/3/)
+- [Python 2.7 Reference](https://docs.python.org/2.7/)
 - [Python Roadmap](https://roadmap.sh/python)
 
 ### COMPAS
 
-- [COMPAS API](https://compas.dev/compas/latest/api/index.html)
+- [COMPAS API](https://compas.dev/compas/2.4.2/api/index.html)
 
 ### Books
 
-
-- [Geometric Computation : Foundations for Design](https://gramaziokohler.arch.ethz.ch/teaching-materials/02_rhino/)
-- [Morphing : a Guide to Mathematical Transformations for Architects and Designers](https://gramaziokohler.arch.ethz.ch/teaching-materials/03_grasshopper/)
-- [AAD_algorithms-Aided Design : Parametric Strategies Using Grasshopper®](https://gramaziokohler.arch.ethz.ch/teaching-materials/04_python/)
+- [Geometric Computation : Foundations for Design](https://www.taylorfrancis.com/books/mono/10.4324/9781315765983/geometric-computation-foundations-design-joy-ko-kyle-steinfeld)
+- [Morphing : a Guide to Mathematical Transformations for Architects and Designers](https://www.oreilly.com/library-access/?next=/library/view/morphing/9781780677224/)
+- [AAD_algorithms-Aided Design : Parametric Strategies Using Grasshopper®](https://www.arturotedeschi.com/books)
+- [Digital Media Series: Grasshopper](https://www.jinmorhee.net/jinmorhee_2-multiimage/dmsgrasshopper.html)
 
 ### Books and other Resources
 
@@ -329,15 +387,15 @@ Online access with ETH Account: Link
 - Choma, Joseph. Morphing : a Guide to Mathematical Transformations for Architects and Designers. London: Laurence King Publishing, 2015.
 Online access with ETH Account: Link
 [ Copy available at ETH Architecture and Civil Engineering Library ] ISBN : 1780674139
-
 - Tedeschi, Arturo, and Fulvio Wirz. AAD_algorithms-Aided Design : Parametric Strategies Using Grasshopper®. Brienza (Potenza): Le Penseur, 2020.
 ISBN : 9788895315300
 
 ### Video recordings
+
 The lecture recordings will be available on the ETH Video Portal to serve as reference, however, presence during lectures is required.
 
 ---
 
 <p align="middle">
-<img src="./resources/allgemein/GKR-Logo.png" alt="Tutor Selection" height="150"/>
+<img src="../../.static/gkr-logo.png" alt="Gramazio Kohler Research" height="150"/>
 </p>
