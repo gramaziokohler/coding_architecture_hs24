@@ -4,7 +4,7 @@
 
 The task is to create a simple calculator program that can perform four basic arithmetic operations: addition, subtraction, multiplication, and division. The calculator could also handle division by zero and invalid operations.
 
-The calculator should accept two input numbers and an arithmetic operation from a Grasshopper value list input component. ("addition", "subtraction", "multiplication", "division") Based on the selected operation it should perform the correct arithmetic calculation. 
+The calculator should accept two input numbers and an arithmetic operation from a Grasshopper value list input component. ("addition", "subtraction", "multiplication", "division"). Based on the selected operation it should perform the correct arithmetic calculation. 
 
 Optionally, introduce an error handling in case a number is divided by zero or if the operation name is invalid.
 
