@@ -427,25 +427,21 @@ We have compiled a list of essential links and resources to support your learnin
 
 - [COMPAS API](https://compas.dev/compas/2.4.2/api/index.html)
 
+
+
 ### Books
-
-- [Geometric Computation : Foundations for Design](https://www.taylorfrancis.com/books/mono/10.4324/9781315765983/geometric-computation-foundations-design-joy-ko-kyle-steinfeld)
-- [Morphing : a Guide to Mathematical Transformations for Architects and Designers](https://www.oreilly.com/library-access/?next=/library/view/morphing/9781780677224/)
-- [AAD_algorithms-Aided Design : Parametric Strategies Using Grasshopper®](https://www.arturotedeschi.com/books)
-- [Digital Media Series: Grasshopper](https://www.jinmorhee.net/jinmorhee_2-multiimage/dmsgrasshopper.html)
-
-### Books and other Resources
 
 For online access using your ETH Account, you have to be in the ETH network or VPN.
 
-- Ko, Joy, and Kyle Steinfeld. Geometric Computation : Foundations for Design. London: Routledge, 2018.
+- [Geometric Computation : Foundations for Design](https://www.taylorfrancis.com/books/mono/10.4324/9781315765983/geometric-computation-foundations-design-joy-ko-kyle-steinfeld). Ko, Joy, and Kyle Steinfeld. London: Routledge, 2018.
 Online access with ETH Account: Link
 [ Copy available at ETH Architecture and Civil Engineering Library ]  ISBN : 1-317-65907-4
-- Choma, Joseph. Morphing : a Guide to Mathematical Transformations for Architects and Designers. London: Laurence King Publishing, 2015.
+- [Morphing : a Guide to Mathematical Transformations for Architects and Designers](https://www.oreilly.com/library-access/?next=/library/view/morphing/9781780677224/). Choma, Joseph. London: Laurence King Publishing, 2015.
 Online access with ETH Account: Link
 [ Copy available at ETH Architecture and Civil Engineering Library ] ISBN : 1780674139
-- Tedeschi, Arturo, and Fulvio Wirz. AAD_algorithms-Aided Design : Parametric Strategies Using Grasshopper®. Brienza (Potenza): Le Penseur, 2020.
+- [AAD_algorithms-Aided Design : Parametric Strategies Using Grasshopper®](https://www.arturotedeschi.com/books). Tedeschi, Arturo, and Fulvio Wirz.  Brienza (Potenza): Le Penseur, 2020.
 ISBN : 9788895315300
+- [Digital Media Series: Grasshopper](https://www.jinmorhee.net/jinmorhee_2-multiimage/dmsgrasshopper.html). Jinmo Rhee, Eddy M. Kim. Independently published. ISBN :  979-8650408130
 
 ### Video recordings
 
