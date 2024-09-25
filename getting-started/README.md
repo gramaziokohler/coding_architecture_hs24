@@ -39,7 +39,7 @@ If the installer fails:
 * For a clean retry, delete the folder `Miniconda` (or `Miniconda3`) from your user profile, and try again.
 * On Windows, make sure you extract/unzip the installer first, and then run it. If you run the installer directly from within the zip file, it will fail. 
 
-## Conda Tools
+## Conda 
 
 We will be using conda as a package management system and environment management system for installing and managing software packages and dependencies. 
 
