@@ -11,7 +11,28 @@ To simplify the management of multiple COMPAS environments and different Rhino i
 
 ![Compas Switcher Tool](/getting-started/conda-tools/images/COMPAS-Switch.png)
 
-Please refer to the [compas-switcher-1.0](/getting-started/conda-tools/compas-switcher-1.0) page to find the appropriate version for your computer (Windows, Mac ARM, Mac Intel).
+Please go to the [compas-switcher-1.0](/getting-started/conda-tools/compas-switcher-1.0) folder to find the appropriate version for your computer (Windows, Mac ARM, Mac Intel).
+
+### Troubleshooting Compas Environment Manager
+
+#### MacOS
+
+We are aware that on MacOS some users have problems executing the file. This is due to Apples harsh restrictions regarding unsigned Applications. We are working on it!
+
+In the meantime you can try to open a terminal and enter the following:
+
+```
+chmod +x /path/to/"SwitchUI_YourVersion"
+```
+
+#### Windows
+
+On windows the tool should mostly work. If you get a message like
+`'conda' is not recognized as an internal or external command, operable program or batch` it could mean that you haven't installed Conda to your PATH. Try the following in cmd:
+
+```
+SET CONDA_PATH=C:\custom\path\to\conda
+```
 
 ## Manual Conda Interaction
 
