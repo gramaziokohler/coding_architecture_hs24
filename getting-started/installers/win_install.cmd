@@ -81,7 +81,6 @@ CALL "%CONDA_COMMAND%" create -c conda-forge -n %CONDA_ENV_NAME% "compas>=2.4,<3
 ECHO.
 
 :conda_activate_virtual_env
-ECHO ON
 <nul set /p"=[ ] Activating virtual environment..."
 CALL "%CONDA_COMMAND%" activate %CONDA_ENV_NAME%
 IF %ERRORLEVEL% neq 0 GOTO conda_activate_failed
