@@ -3,8 +3,8 @@
 [![roadmap](../.static/roadmap-small.png)](https://github.com/gramaziokohler/coding_architecture_hs24/raw/main/roadmap/roadmap.png)
 
 - [Download the full resolution roadmap](https://github.com/gramaziokohler/coding_architecture_hs24/raw/main/roadmap/roadmap.png)
-- [Download Grasshopper file: comparing building blocks](comparing-building-blocks.gh)
-- [Video (30')](https://youtu.be/RgYLahOdF-Y)
+- [Download Grasshopper file: comparing building blocks](comparing-building-blocks_hs24.gh)
+- [Video (30')](https://youtu.be/Db_Rtx6MOpc)
 
 This roadmap provides guidence during the learning process,
 to understand how much you've progressed and what are the skills and concepts
