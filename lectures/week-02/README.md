@@ -432,7 +432,7 @@ box = Box(1, 2, 2)
 from compas_rhino.conversions import point_to_rhino
 from compas_rhino.conversions import box_to_rhino
 
-a = pointy_to_rhino(pt)
+a = point_to_rhino(pt)
 b = box_to_rhino(box)
 
 # --------------------------------
