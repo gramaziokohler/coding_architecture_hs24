@@ -57,11 +57,11 @@ This course welcomes students from all backgrounds, as no prior coding experienc
 
 ## Team
 
-![Teaching Team](./resources/allgemein/Team_Overview_HS24.png)
+![Teaching Team](./images/Team_Overview_HS24.png)
 
 ## Slides
 
-[![Slides](./resources/lecture-01/slides.png)](https://docs.google.com/presentation/d/16FroMYQlwoUKqWQtC0TqKhu9K_DUGY5qgET3F_E435Y)
+[![Slides](./images/slides.png)](https://docs.google.com/presentation/d/16FroMYQlwoUKqWQtC0TqKhu9K_DUGY5qgET3F_E435Y)
 
 <div style="display: flex; justify-content: center; align-items: center; height: 1vh;">
     <p style="font-size: 75%;">
@@ -74,7 +74,7 @@ This course welcomes students from all backgrounds, as no prior coding experienc
 
 ### Semester Structure
 
-[![Semester Structure](./resources/lecture-01/Course-Structure.jpg)](./resources/lecture-01/Course-Structure.jpg)
+[![Semester Structure](./images/Course-Structure.jpg)](./images/Course-Structure.jpg)
 
 <!-- --- -->
 The semester structure for Coding Architecture I is designed to progressively build your skills in programming and computational design. The course begins with foundational lessons in Python, gradually introducing more complex topics such as Object-Oriented Programming (OOP), Computational Geometry and the COMPAS framework. Each week is dedicated to a specific theme, ensuring a comprehensive understanding of the key concepts.
@@ -94,13 +94,12 @@ Moodle will serve as our primary teaching platform. From there, you will access 
 Follow this [LINK](https://moodle-app2.let.ethz.ch/course/view.php?id=22789)
 to access to the Moodle course plattform.
 
-<!-- ![Moodle Platform](./resources/lecture-01/MoodleScreenshot_01.png) -->
-![Moodle Platform](./resources/lecture-01/MoodleScreenshot_02.png)
+![Moodle Platform](./images/MoodleScreenshot_02.png)
 
 ### Tutoring Groups
 
 <p align="middle">
-<img src="./resources/lecture-01/Tutor-Selection_hs24.jpg" alt="Tutor Selection" height="380"/>
+<img src="./images/Tutor-Selection_hs24.jpg" alt="Tutor Selection" height="380"/>
 </p>
 
 To ensure a smooth learning experience, we have assigned 7 tutors who will serve as your points of contact throughout the semester. They will be available to assist you with any content-related or administrative questions you may have. We highly recommend signing up for a tutor on Moodle as soon as possible.
@@ -144,9 +143,8 @@ See [here](/roadmap/README.md) for more information about the **Roadmap: becomin
 
 At its core, software can be understood as a tool for transforming data. You start with input data—whether numerical values, text, or other forms of information—apply a set of operations or processes to it, and produce output data. Programming software is the task of writing that set of operations that will perform the transformation. This transformation is fundamental to all programming tasks.
 
-<!-- >Input → Process → Output -->
 
-![What is Code](./resources/lecture-01/WhatIsProgramming_wide.jpg)
+![What is Code](./images/WhatIsProgramming_wide.jpg)
 
 Consider Excel as a simple analogy: you might have a set of numbers to which you add another set or calculate their deviation from an average. The result is a new set of numbers—your output. What occurred in between is a data transformation.
 
@@ -326,7 +324,7 @@ Grasshopper is a visual programming language and environment for Rhinoceros3D. I
 
 By connecting components and algorithms in Grasshopper's visual interface, you can manipulate geometry, automate tasks, and explore design alternatives. To learn more about Grasshopper and its capabilities, refer to the [Teaching Material](https://gramaziokohler.arch.ethz.ch/teaching-materials/) section for in-depth resources and links.
 
-![Grasshopper Basics](/lectures/week-01/resources/lecture-01/GrasshopperBasics.png)
+![Grasshopper Basics](/lectures/week-01/images/GrasshopperBasics.png)
 
 ## Code Examples
 
