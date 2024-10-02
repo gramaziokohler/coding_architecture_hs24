@@ -332,9 +332,9 @@ By connecting components and algorithms in Grasshopper's visual interface, you c
 
 The following example files will guide you in understanding the concepts presented during the lecture.
 
-- [Anatomy of Code](/examples/week-01/00_anatomy_of_code_hs24.gh)
-- [Overview of Arithmetic Operators](/examples/week-01/01_arithmetic_operations_hs24.gh)
-- [Overview of Other Operators](/examples/week-01/02_operators_hs24.gh)
+- [Anatomy of Code](./examples/00_anatomy_of_code_hs24.gh)
+- [Overview of Arithmetic Operators](./examples/01_arithmetic_operations_hs24.gh)
+- [Overview of Other Operators](./examples/02_operators_hs24.gh)
 
 ## Assignment 0 (Ungraded)
 

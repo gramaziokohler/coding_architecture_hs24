@@ -451,9 +451,9 @@ for x in range(10):
 
 The following files are useful to follow the lecture content:
 
-- [Lists and Loops](/examples/week-02/01-lists-and-loops_hs24.gh)
-- [Sets and Duplicates](/examples/week-02/02-sets-and-duplicates_hs24.gh)
-- [Strings](/examples/week-02/03-strings_hs24.gh)
+- [Lists and Loops](./examples/01-lists-and-loops_hs24.gh)
+- [Sets and Duplicates](./examples/02-sets-and-duplicates_hs24.gh)
+- [Strings](./examples/03-strings_hs24.gh)
 
 
 ## Micro exercises
