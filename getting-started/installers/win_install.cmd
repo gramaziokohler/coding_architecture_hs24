@@ -49,7 +49,9 @@ IF %ERRORLEVEL%==1 (
 ECHO.
 
 <nul set /p"=[ ] Installing miniconda (Python distribution)..."
-CALL curl -S -s -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
+
+REM We add -k to curl to prevent some firewalls and other security tools to block this download
+CALL curl -S -s -k -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
 IF %ERRORLEVEL% neq 0 GOTO miniconda_download_failed
 SET CONDA_COMMAND=%CONDA_PATH%\condabin\conda
 
