@@ -33,13 +33,13 @@ number sliders. (Right-click each of the inputs and navigate to **Type hint**.)
 - Loop statements (for loops for generating rows and columns).
 - Conditional statements (for applying row offset).
 
-![screenshot](images/main-task-hs24-scr.png)
+![screenshot](images/ca1_hs24_a01-main-task-gh.png)
 
 <p align="middle">
 <img src="./images/Type-Hint.png" alt="Type Hint" height="380"/>
 </p>
 
-![screenshot](images/main-task-hs24-2.png)
+![screenshot](images/ca1_hs24_a01-main-task.png)
 
 ## Challenge 01
 
@@ -67,9 +67,8 @@ different things into a numerical relationship.
 - If you use an attractor point as reference, you can choose to use a referenced point
   from Grasshopper instead of hard-coding the attractor point.
 
-![Grasshopper](images/challenge-01-hs24-scr.png)
-![Result](images/challenge-01-hs24-2.png)
-
+![Grasshopper](images/ca1_hs24_a01-challenge1-gh.png)
+![Result](images/ca1_hs24_a01-challenge1.png)
 
 ## Challenge 02
 
@@ -85,8 +84,8 @@ in typical stretcher bond.
 - Ensure the half-bricks are correctly proportioned, such that the wall ends are flush.
 - Ensure the half-bricks are correctly positioned and aligned with the full bricks, taking into account the staggered pattern.
 
-![Grasshopper](images/challenge-02-hs24-scr.png)
-![Result](images/challenge-02-hs24-2.png)
+![Grasshopper](images/ca1_hs24_a01-challenge2-gh.png)
+![Result](images/ca1_hs24_a01-challenge2.png)
 
 ## Deliverables
 

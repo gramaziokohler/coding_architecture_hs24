@@ -439,7 +439,7 @@ rhino_point = point_to_rhino(p1)
 
 ## Assignment 1
 
-![Result](/assignments/A01-brick-wall/images/challenge-01-hs24-2.png)
+![Result](/assignments/A01-brick-wall/images/ca1_hs24_a01-challenge1.png)
 
 ### Brick Wall
 
