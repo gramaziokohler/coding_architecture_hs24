@@ -172,5 +172,5 @@ The goal is to get answers in a format and length that you can work with best. S
 ---
 
 <p align="middle">
-<img src="..//../.static/gkr-logo.png" alt="Gramazio Kohler Research" height="150"/>
+<img src="../.static/gkr-logo.png" alt="Gramazio Kohler Research" height="150"/>
 </p>
