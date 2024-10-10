@@ -374,7 +374,7 @@ In this first part we'll cover how to get started, and how to ask well formulate
 The following files are useful to follow the lecture content:
 
 - [Math in Python](./examples/math-in-python.md) 
-- [3D Grids and Filtering](./examples/wip-3d-grids.gh)
+- [3D Grids and Filtering](./examples/3d-grids-and-filters.gh)
 
 ## Micro Exercises
 
