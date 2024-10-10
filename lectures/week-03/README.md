@@ -391,7 +391,8 @@ for x in range(10):
 boxes = []
 
 for point in points:
-    box = Box(point, 1, 1, 1)
+    box = Box(1, 1, 1)
+    box.frame.point = point
     boxes.append(box)
 ```
 
