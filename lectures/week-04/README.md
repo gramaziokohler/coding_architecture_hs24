@@ -375,7 +375,6 @@ The following files are useful to follow the lecture content:
 
 - [Math in Python](./examples/math-in-python.md) 
 - [3D Grids and Filtering](./examples/wip-3d-grids.gh)
-...
 
 ## Micro Exercises
 
