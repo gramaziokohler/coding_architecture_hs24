@@ -161,7 +161,7 @@ print(box.area)    # Output: 22.0
 # -----------------------------------------
 # ------ Box from Corner and Height -------
 
-from compas.geometry import Box
+from compas.geometry import Box, Point
 
 # Create a box from opposite corners of its base and its height
 corner1 = Point(0, 0, 0)
@@ -176,10 +176,14 @@ print(box.zsize)  # Output: 2.0
 # -----------------------------------------
 # ------- Box from Bounding Box -----------
 
-from compas.geometry import bounding_box
+from compas.geometry import Box
 
 # Example of constructing a box from bounding box data
-bbox = [[0, 0, 0], [1, 1, 1]]
+bbox = [
+  [0, 0, 0], [0, 1, 0], [1, 1, 0], [1, 0, 0],
+  [0, 0, 1], [0, 1, 1], [1, 1, 1], [1, 0, 1]
+]
+
 box = Box.from_bounding_box(bbox)
 
 print(box.xsize)  # Output: 1.0
@@ -195,8 +199,8 @@ from compas.geometry import Box
 box = Box.from_width_height_depth(1, 2, 3)
 
 print(box.xsize)  # Output: 1.0
-print(box.ysize)  # Output: 2.0
-print(box.zsize)  # Output: 3.0
+print(box.ysize)  # Output: 3.0
+print(box.zsize)  # Output: 2.0
 ```
 
 ### Attributes
@@ -261,19 +265,23 @@ In Python, you can filter data by iterating over a collection and applying a con
 # ------------ Basic Filtering ------------
 
 for i in range(10):
-    if is_even(i):
+    # Check if it is even
+    if i % 2 == 0:
         print(i)
 
 # -----------------------------------------
 # ----------- Filtering Geometry ----------
 
 from compas.geometry import Point
-from itertools import product
 
-for x, y, z in product(range(nx), range(ny), range(nz)):
-    if is_even(x):
-        point = Point(x, y, z)
-        points.append(point)
+points = []
+
+for x in range(10):
+    for y in range(10):
+        for z in range(10):
+            if (x + y + z) % 2 == 0:
+                point = Point(x, y, z)
+                points.append(point)
 ```
 
 <!-- ![mathematical-filter](./images/mathematical-filter.jpg)
@@ -289,7 +297,11 @@ for x, y, z in product(range(nx), range(ny), range(nz)):
 values = [5, 10, 15, 20, 25, 30]
 
 # Filter out values greater than 15
-filtered_values = [v for v in values if v > 15]
+filtered_values = []
+for v in values:
+    if v > 15:
+        filtered_values.append(v)
+
 print(filtered_values)  # Output: [20, 25, 30]
 
 # -----------------------------------------
@@ -298,19 +310,28 @@ print(filtered_values)  # Output: [20, 25, 30]
 values = range(10)
 
 # Filter only odd numbers
-filtered_values = [v for v in values if v % 2 != 0]
+filtered_values = []
+
+for v in values:
+    if v % 2 != 0:
+        filtered_values.append(v)
+
 print(filtered_values)  # Output: [1, 3, 5, 7, 9]
 
 # -----------------------------------------
 # ---- Filtering by Distance (Geometry) ---
 
-from compas.geometry import Point, distance
+from compas.geometry import Point
 
 reference_point = Point(0, 0, 0)
-points = [Point(x, y, 0) for x, y in product(range(10), repeat=2)]
+points = []
 
 # Filter points that are within a distance of 5 from the reference point
-filtered_points = [pt for pt in points if distance(pt, reference_point) < 5]
+for x in range(10):
+    for y in range(10):
+        point = Point(x, y, 0)
+        if point.distance_to_point(reference_point) < 5:
+            points.append(point)
 
 # -----------------------------------------
 # ------ Filtering Strings by Match -------
@@ -318,7 +339,12 @@ filtered_points = [pt for pt in points if distance(pt, reference_point) < 5]
 names = ["Alice", "Bob", "Charlie", "David", "Alfred"]
 
 # Filter names that start with 'A'
-filtered_names = [name for name in names if name.startswith('A')]
+filtered_names = []
+
+for name in names:
+    if name.startswith('A'):
+        filtered_names.append(name)
+
 print(filtered_names)  # Output: ['Alice', 'Alfred']
 
 
@@ -336,7 +362,11 @@ def is_prime(n):
 values = range(50)
 
 # Filter prime numbers
-filtered_values = [v for v in values if is_prime(v)]
+filtered_values = []
+for v in values:
+    if is_prime(v):
+        filtered_values.append(v)
+
 print(filtered_values)  # Output: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
 
 # -----------------------------------------
@@ -345,7 +375,12 @@ print(filtered_values)  # Output: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 4
 values = range(100)
 
 # Filter values that are even and greater than 50
-filtered_values = [v for v in values if v % 2 == 0 and v > 50]
+filtered_values = []
+
+for v in values:
+    if v % 2 == 0 and v > 50:
+        filtered_values.append(v)
+
 print(filtered_values)  # Output: [52, 54, 56, 58, ..., 98]
 
 # -----------------------------------------
@@ -356,7 +391,12 @@ valid_items = {2, 4, 6, 8, 10}
 values = range(1, 11)
 
 # Filter values that are in the set of valid items
-filtered_values = [v for v in values if v in valid_items]
+filtered_values = []
+
+for v in values:
+    if v in valid_items:
+        filtered_values.append(v)
+        
 print(filtered_values)  # Output: [2, 4, 6, 8, 10]
 ```
 
