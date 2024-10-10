@@ -19,7 +19,7 @@
 * [Filtering](#filtering)
     + [Basics](#basics)
     + [Different Filtering methods](#different-filtering-methods)
-* [GPT-Workshop: Part 1](#gpt-workshop--part-1)
+* [GPT-Workshop: Part 1](#gpt-workshop-part-1)
 * [Code Examples](#code-examples)
 
 ## Overview
@@ -360,7 +360,7 @@ filtered_values = [v for v in values if v in valid_items]
 print(filtered_values)  # Output: [2, 4, 6, 8, 10]
 ```
 
-## GPT-Workshop: Part 1 
+## GPT-Workshop Part 1 
 
 As it's relevant to the field of programming, and since most of you likely already use GPT in one way or another, we intend to provide you with some guidelines on how to use LLMs, while not negatively impacting your learning experience.
 
