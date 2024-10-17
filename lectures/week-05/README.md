@@ -255,7 +255,7 @@ class Room(object):
         self.width = width
 
     def __str__(self):
-        return f"{self.name}: {self.length}m x {self.width}m"
+        return "{}: {}m x {}m".format(self.name, self.length, self.width)
 
 # Create a Room object
 living_room = Room("Living Room", 5, 3)
