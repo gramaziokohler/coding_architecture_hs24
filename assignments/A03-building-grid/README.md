@@ -33,8 +33,6 @@ is in code comments, as a step-by-step guide.
 ![main task](images/A03_maintask.png)
 
 
----
-
 ## Challenge 01
 
 Goal: Assign the category of each slab
@@ -50,9 +48,6 @@ is in code comments, as a step-by-step guide.
 
 ![challenge 01](images/A03_ch1.png)
 <!-- ![screenshot](images/A03_Ch1-scr.png) -->
-
-
----
 
 ## Challenge 02
 
