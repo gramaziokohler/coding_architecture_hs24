@@ -56,17 +56,16 @@ is in code comments, as a step-by-step guide.
 
 ## Challenge 02
 
-Goal: Calculate and print total volume of slabs, and the number (amount) of each element type (slabs, columns and main beams).
+Goal: Visualize all the slabs in our building grid in a stacked or "palletized" version.
 
-The methods to get the numbers of columns and mainbeams already exist on the BuildingGrid class so we can print them out directly.
-A new method number_of_slabs() needs to be added to the BuildingGrid class.
-
-A new method to calculate the volume of each slab needs to be added to the Slab class.
+The idea is to take all the slabs that are created in the building, and 
+make a copy of and visualize them in stacks of slabs, as if they were in
+pallets for transportation.
 
 #### Details
 
-The algorithm that we need to implement, as well as hints to python functions you might need,
-are in code comments, as a step-by-step guide.
+The algorithm that we need to implement, as well as hints to functions
+you might need, is in code comments, as a step-by-step guide.
 
 ![challenge 02](images/A03_ch2.png)
 
