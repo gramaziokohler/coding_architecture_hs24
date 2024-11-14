@@ -48,7 +48,7 @@ GPT is great for helping solve exercises, but using it well is key to learning e
 ## Example Conversations
 
 <details>
-  <summary><b> Analysing Error Message </b></summary>
+  <summary><b> Analyzing Error Message </b></summary>
 
 ![Forum Question](./images/GPT-tutoring2_error-message.jpg)
 
