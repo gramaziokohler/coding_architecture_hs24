@@ -8,7 +8,7 @@ We know that many of you already use GPT this way, but there are some best pract
 
 * [Using GPT for Debugging ](#using-gpt-for-debugging)
 * [Using GPT for Solving Exercises](#using-gpt-for-solving-exercises)
-* [Example Conversations]()
+* [Example Conversations](#example-conversations)
 
 ## Using GPT for Debugging
 
