@@ -97,3 +97,23 @@ the old environment:
 ```
 conda remove --name old_env_name --all
 ```
+
+## Updating COMPAS
+
+#### Activate your Environment
+
+```
+conda activate ca_hs24
+```
+
+#### Update COMPAS
+
+```
+conda update compas
+```
+
+---
+
+<p align="middle">
+<img src=".static/gkr-logo.png" alt="Gramazio Kohler Research" height="150"/>
+</p>
