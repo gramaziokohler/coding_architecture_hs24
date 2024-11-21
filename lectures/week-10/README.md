@@ -8,6 +8,8 @@
 
 * [Overview](#overview)
 * [Slides](#slides)
+* [A03 Review](#a03-review)
+* [Final Project](#final-assignment)
 
 ## Overview
 
@@ -25,6 +27,27 @@ During the semester, we have explored different aspects of the Python language, 
         ↑ click to open ↑
     </p>
 </div>
+
+## A03 Review
+
+We’ll begin with a walkthrough of Assignment 03. This review will cover:
+
+* A brief overview of the main task, which was previously demonstrated in class.
+* Challenge 01: Assigning categories to each slab. Each slab can be categorized as "roof", "floor_slab", or "bottom_slab".
+* Challenge 02: Visualizing all the slabs in our building grid in a stacked or "palletized" version.
+
+
+## Final Assignment
+
+![Result](/lectures/week-10/images/A04_Wu-Jiaqian.png)
+
+### Design Project
+
+In this final assignment, you will integrate all the concepts learned throughout the course into a comprehensive building structure. Using Python programming, you will create a building that incorporates architectural components such as slabs, columns, and facade walls, sculpted by a filter class.
+
+Your building will be placed in a real location in the city of Zurich. You can choose one of the following five plot locations for your design project: **Altstetten**, **Hardturm**, **Letzi**, **Heinrich-Areal**, or **Escher Wyss**. Each location has unique characteristics and potential constraints, so consider factors like plot size, shape, and local context when making your choice.
+
+[→ CLICK HERE ← to access the final task description.](/assignments/A04-final-project/README.md) 
 
 ---
 
